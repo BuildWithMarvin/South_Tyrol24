@@ -5,6 +5,9 @@ frontend (DE/IT/EN/ZH). Door content is served by a single route handler and
 locked server-side until the matching December date, so unreleased places never
 reach the client.
 
+## Why I Built This
+I originally created this project as a personal, zero-budget Christmas gift for my grandfather (Opa). Instead of a store-bought chocolate calendar or cluttered apps full of ads and paywalls, I wanted to give him something thoughtful, calm, and easy to read on a smartphone—a small daily window into the mountains and villages of South Tyrol leading up to Christmas Eve.
+
 ## Getting started
 
 ```bash
