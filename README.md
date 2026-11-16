@@ -5,11 +5,14 @@ frontend (DE/IT/EN/ZH). Door content is served by a single route handler and
 locked server-side until the matching December date, so unreleased places never
 reach the client.
 
+## Why I Built This
+I originally created this project as a personal, zero-budget Christmas gift for my grandfather (Opa). Instead of a store-bought chocolate calendar or cluttered apps full of ads and paywalls, I wanted to give him something thoughtful, calm, and easy to read on a smartphone—a small daily window into the mountains and villages of South Tyrol leading up to Christmas Eve.
+
 ## Getting started
 
 ```bash
 npm install
-cp .env.example .env.local   # set PREVIEW_SECRET
+cp .env.example .env.local   # set PREVIEW_SECRET, optionally the support URLs
 npm run dev
 ```
 
@@ -18,34 +21,47 @@ Open <http://localhost:3000> for the calendar and
 
 ## Frontend
 
-- Bright "Alpine Editorial & Bento" design (alabaster, terracotta and pine)
-  with Plus Jakarta Sans and Instrument Serif, a bento grid and a centered
-  finale card for day 24.
-- 24-door grid (2 columns on phones, 4 on tablets, 6 on desktop) with locked,
-  available and opened states. Opened doors are remembered in
+- Illustrated Dolomites night scene (SVG mountains, moon, stars) with
+  Cormorant Garamond and DM Sans. The 24 doors are the windows of eight
+  houses in a deliberately shuffled order, in 2 columns on phones and 4 from
+  640px. Windows are locked, ready, today (pulsing) or opened; 6, 13 and 20
+  show a candle flame and 24 a star. Opened doors are remembered in
   `localStorage["suedtirol-opened-doors"]`.
+- Gentle CSS falling snow in three depth layers, static dots under
+  `prefers-reduced-motion`.
 - Localized UI and door content with a DE/IT/EN/ZH switcher persisted in
   `localStorage["suedtirol-lang"]` (default German).
-- Accessible door modal with the photo, its credit, the description, an
-  embedded Google Map and a link to open the place in Google Maps.
+- Accessible dark door modal (bottom sheet on phones, centered card from
+  640px) with the photo, a link to the place in Google Maps, the photo
+  credit and the description. It has a focus trap and closes with Esc or a
+  backdrop click.
 - To review locked doors before December, open
   `http://localhost:3000/?preview=<PREVIEW_SECRET>`; the page forwards the
   secret to `/api/days`.
-- Set `NEXT_PUBLIC_BUYMEACOFFEE_URL` to show optional support links in the
-  footer and in every opened door. Leave it empty to hide them.
+- Set `NEXT_PUBLIC_BUYMEACOFFEE_URL` and/or `NEXT_PUBLIC_PAYPAL_URL` to show
+  optional support buttons in the footer and at the bottom of every opened
+  door (side by side when both are set). Leave a variable empty to hide its
+  button. Restart the dev server after changing them.
 
 ## Tests
 
 ```bash
-npm test          # Node test runner: calendar, masking and dataset checks
+npm test          # Node test runner: calendar, masking, dataset, village, snow, i18n, route
+npm run test:ui   # Vitest + Testing Library (jsdom) component tests
+npm run test:e2e  # Playwright (Chromium), starts its own server on port 3100
+npm run test:all  # all three suites
 npm run typecheck # tsc --noEmit
 npm run build     # production build
 ```
 
-The suite covers the Europe/Rome unlock schedule, the locked/unlocked shape of
-`toPublicDay` (including that `imageCredit` never leaks), and the integrity of
+The node suite covers the Europe/Rome unlock schedule, the locked/unlocked
+shape of `toPublicDay` (including that `imageCredit` never leaks), the
+`/api/days` route handler (preview bypass, `no-store`), and the integrity of
 `data/suedtirol.json` and `public/images` (24 doors in order, four locales,
 existing image files, plausible coordinates and consistent credits/licenses).
+The component and e2e suites cover the village, modal, snow, language
+switcher, localStorage and responsive layout. The e2e suite needs a Playwright
+browser (`npx playwright install chromium`) and a free port 3100.
 
 ## Endpoint
 
@@ -112,19 +128,21 @@ Response headers include `X-Calendar-Date`, `X-Calendar-Unlocked-Through` and
 
 ## Project layout
 
-| Path                          | Purpose                                              |
-| ----------------------------- | ---------------------------------------------------- |
-| `app/page.tsx`                | Calendar page: API fetch, state, grid and modal       |
-| `app/components/`             | Door card, modal, photo credit and language switcher  |
-| `app/calendar.module.css`     | Responsive calendar and modal styles                 |
-| `app/api/days/route.ts`       | GET handler, preview bypass, response masking        |
-| `lib/i18n.ts`                 | UI copy, locale labels and date formatting           |
-| `lib/masking.ts`              | `toPublicDay`, the locked/unlocked transformation    |
-| `lib/types.ts`                | `DayData`, localized content and API response types  |
-| `lib/calendar.ts`             | Europe/Rome date logic and unlock calculation        |
-| `data/suedtirol.json`         | 24 doors (content, coordinates and image paths)     |
-| `public/images/`              | Door images, served at `/images/<filename>.webp`    |
-| `tests/`                      | Node tests for calendar, masking and the dataset     |
+| Path                          | Purpose                                                   |
+| ----------------------------- | --------------------------------------------------------- |
+| `app/page.tsx`                | Calendar page: API fetch, state, hero, village, footer    |
+| `app/components/`             | Village, scene, snow, door modal, support buttons, photo credit, language switcher |
+| `app/calendar.module.css`     | Night scene, village, modal and snow styles               |
+| `app/api/days/route.ts`       | GET handler, preview bypass, response masking             |
+| `lib/i18n.ts`                 | UI copy, locale labels and date formatting                |
+| `lib/masking.ts`              | `toPublicDay`, the locked/unlocked transformation         |
+| `lib/types.ts`                | `DayData`, localized content and API response types       |
+| `lib/calendar.ts`             | Europe/Rome date logic and unlock calculation             |
+| `lib/village.ts`              | House layout, window order and today's door               |
+| `lib/snow.ts`                 | Snowflake generator (injectable random source)                         |
+| `data/suedtirol.json`         | 24 doors (content, coordinates and image paths)           |
+| `public/images/`              | Door images, served at `/images/<filename>.webp`          |
+| `tests/`                      | Node tests, `components/` (Vitest) and `e2e/` (Playwright) |
 
 Door images are stored in `public/images` and referenced from
 `data/suedtirol.json` with root-relative paths such as
