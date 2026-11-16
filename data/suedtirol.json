@@ -1,0 +1,962 @@
+[
+  {
+    "day": 1,
+    "slug": "drei-zinnen",
+    "imageUrl": "/images/Day-01-LnCW0HTc.webp",
+    "imageCredit": {
+      "author": "Sebastian Knoll",
+      "source": "Unsplash",
+      "sourceUrl": "https://unsplash.com/de/@skenb",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "location": {
+      "name": "Drei Zinnen",
+      "lat": 46.6186,
+      "lng": 12.3055,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.6186,12.3055"
+    },
+    "content": {
+      "de": {
+        "title": "Drei Zinnen",
+        "region": "Sextner Dolomiten",
+        "description": "Wie drei steinerne Wächter ragen die Drei Zinnen in den Winterhimmel. Wenn die tief stehende Sonne die Nordwände in Roségold taucht und der Schnee unter den Stiefeln knirscht, wird die Stille der Sextner Dolomiten zum schönsten Adventgeschenk."
+      },
+      "it": {
+        "title": "Tre Cime di Lavaredo",
+        "region": "Dolomiti di Sesto",
+        "description": "Come tre sentinelle di pietra, le Tre Cime si stagliano nel cielo d'inverno. Quando il sole basso tinge di oro rosato le pareti settentrionali e la neve scricchiola sotto gli scarponi, il silenzio delle Dolomiti di Sesto diventa il più bel regalo d'Avvento."
+      },
+      "en": {
+        "title": "Three Peaks",
+        "region": "Sexten Dolomites",
+        "description": "Like three stone sentinels, the Three Peaks rise into the winter sky. When the low sun turns the north faces rose-gold and the snow crunches underfoot, the silence of the Sexten Dolomites becomes the finest Advent gift."
+      },
+      "zh": {
+        "title": "三峰山",
+        "region": "塞斯托多洛米蒂",
+        "description": "三座石峰如卫士般耸立在冬日天空下。当低垂的夕阳把北壁染成玫瑰金色，积雪在脚下发出轻响，塞斯托多洛米蒂的寂静便成了最美好的降临节礼物。"
+      }
+    }
+  },
+  {
+    "day": 2,
+    "slug": "pragser-wildsee",
+    "imageUrl": "/images/Day-02-Qn3JDxX8.webp",
+    "imageCredit": {
+      "author": "Philip Olschowa",
+      "source": "Unsplash",
+      "sourceUrl": "https://unsplash.com/de/@phlp_fil_a",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "location": {
+      "name": "Pragser Wildsee",
+      "lat": 46.6944,
+      "lng": 12.085,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.6944,12.085"
+    },
+    "content": {
+      "de": {
+        "title": "Pragser Wildsee",
+        "region": "Pustertal",
+        "description": "Der Pragser Wildsee liegt im Advent oft spiegelglatt zwischen verschneiten Lärchen. Das dunkle Bootshaus, die schweigenden Berge und das erste Kerzenlicht am Ufer erzählen von einer stillen, fast märchenhaften Winterwelt."
+      },
+      "it": {
+        "title": "Lago di Braies",
+        "region": "Val Pusteria",
+        "description": "In Avvento il Lago di Braies giace spesso immobile tra i larici innevati. La casa delle barche scura, le montagne silenziose e la prima luce di candela sulla riva raccontano di un mondo invernale quieto, quasi fiabesco."
+      },
+      "en": {
+        "title": "Lake Braies",
+        "region": "Puster Valley",
+        "description": "In Advent, Lake Braies often lies glassy and still among snow-laden larches. The dark boathouse, the silent mountains and the first candlelight on the shore tell of a quiet, almost fairy-tale winter world."
+      },
+      "zh": {
+        "title": "布拉耶斯湖",
+        "region": "普斯特里亚谷",
+        "description": "降临节时，布拉耶斯湖常常如镜般静卧在覆雪的落叶松之间。深色的船屋、沉默的群山与岸边第一点烛光，诉说着一个宁静而近乎童话的冬日世界。"
+      }
+    }
+  },
+  {
+    "day": 3,
+    "slug": "schloss-tirol",
+    "imageUrl": "/images/Day-03-IhFl28ie.webp",
+    "imageCredit": {
+      "author": "André Beer",
+      "source": "Unsplash",
+      "sourceUrl": "https://unsplash.com/de/@geoworld",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "location": {
+      "name": "Schloss Tirol",
+      "lat": 46.6895,
+      "lng": 11.1489,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.6895,11.1489"
+    },
+    "content": {
+      "de": {
+        "title": "Schloss Tirol",
+        "region": "Dorf Tirol bei Meran",
+        "description": "Hoch über dem Meraner Becken wacht Schloss Tirol, die Wiege des Landesnamens. Im Advent glitzern die Zinnen im Schnee, und von der Burgmauer schweift der Blick über ein Tal, das langsam im Lichterglanz der Weihnachtszeit versinkt."
+      },
+      "it": {
+        "title": "Castel Tirolo",
+        "region": "Tirolo presso Merano",
+        "description": "Sopra la conca di Merano veglia Castel Tirolo, culla del nome della regione. In Avvento i merli brillano nella neve e dalle mura lo sguardo spazia su una valle che si accende piano delle luci natalizie."
+      },
+      "en": {
+        "title": "Tirol Castle",
+        "region": "Tirol near Merano",
+        "description": "High above the Merano basin watches Tirol Castle, the cradle of the region's name. In Advent its battlements glitter with snow, and from the walls the view sweeps over a valley slowly sinking into Christmas lights."
+      },
+      "zh": {
+        "title": "蒂罗尔城堡",
+        "region": "梅拉诺附近的蒂罗尔",
+        "description": "蒂罗尔城堡高踞梅拉诺盆地之上，守护着这片土地名字的源头。降临节里，城垛在雪中闪光，从城墙远眺，山谷正缓缓沉入圣诞灯火的辉煌。"
+      }
+    }
+  },
+  {
+    "day": 4,
+    "slug": "seiser-alm",
+    "imageUrl": "/images/Day-04-yX9dtmft.webp",
+    "imageCredit": {
+      "author": "Tobias Reich",
+      "source": "Unsplash",
+      "sourceUrl": "https://unsplash.com/de/@electerious",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "location": {
+      "name": "Seiser Alm",
+      "lat": 46.54,
+      "lng": 11.63,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.54,11.63"
+    },
+    "content": {
+      "de": {
+        "title": "Seiser Alm",
+        "region": "Grödner Dolomiten",
+        "description": "Die Seiser Alm breitet ihre verschneiten Weiten unter dem Schlern aus. Zwischen knorrigen Hütten und stillen Skipisten riecht es nach Holzfeuer und Glühwein – Europas größte Hochalm wird im Advent zur weißen Stube der Dolomiten."
+      },
+      "it": {
+        "title": "Alpe di Siusi",
+        "region": "Dolomiti di Gardena",
+        "description": "L'Alpe di Siusi stende le sue distese innevate ai piedi dello Sciliar. Tra vecchie baite e piste silenziose si respira odore di legna e vin brulé: il più grande alpeggio d'Europa diventa in Avvento il salotto bianco delle Dolomiti."
+      },
+      "en": {
+        "title": "Seiser Alm",
+        "region": "Gardena Dolomites",
+        "description": "The Seiser Alm spreads its snowy expanses beneath the Schlern. Among gnarled huts and quiet ski slopes drift the scents of wood smoke and mulled wine – Europe's largest high alpine pasture becomes the Dolomites' white parlour in Advent."
+      },
+      "zh": {
+        "title": "塞瑟阿尔姆",
+        "region": "加尔代纳多洛米蒂",
+        "description": "塞瑟阿尔姆在施勒恩山下铺开皑皑雪原。古朴的木屋与寂静的雪道之间飘着柴火和热红酒的香气——这座欧洲最大的高山牧场在降临节化作多洛米蒂的白色客厅。"
+      }
+    }
+  },
+  {
+    "day": 5,
+    "slug": "karersee",
+    "imageUrl": "/images/Day-05-feaEL6jq.webp",
+    "imageCredit": {
+      "author": "Ondřej Matouš",
+      "source": "Unsplash",
+      "sourceUrl": "https://unsplash.com/de/@ondrej_matous",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "location": {
+      "name": "Karersee",
+      "lat": 46.4092,
+      "lng": 11.5956,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.4092,11.5956"
+    },
+    "content": {
+      "de": {
+        "title": "Karersee",
+        "region": "Eggental",
+        "description": "Der Karersee fängt das Latemar-Massiv in seinem dunklen Wasser ein. Im Winter liegt oft eine dünne Eisschicht über dem See, während die Legende von der schönen Nixe und dem Zauberer noch immer durch die verschneiten Wälder flüstert."
+      },
+      "it": {
+        "title": "Lago di Carezza",
+        "region": "Val d'Ega",
+        "description": "Il Lago di Carezza cattura il massiccio del Latemar nelle sue acque scure. D'inverno una sottile lastra di ghiaccio copre spesso il lago, mentre la leggenda della ninfa e del mago sussurra ancora tra i boschi innevati."
+      },
+      "en": {
+        "title": "Lake Carezza",
+        "region": "Eggental Valley",
+        "description": "Lake Carezza captures the Latemar massif in its dark water. In winter a thin sheet of ice often covers the lake, while the legend of the beautiful nymph and the sorcerer still whispers through the snowy woods."
+      },
+      "zh": {
+        "title": "卡雷扎湖",
+        "region": "埃根谷",
+        "description": "卡雷扎湖将拉特马尔山的雄姿映入深色湖水。冬日湖面常覆着一层薄冰，而美丽水妖与巫师的传说仍在雪林间低语。"
+      }
+    }
+  },
+  {
+    "day": 6,
+    "slug": "reschensee-kirchturm",
+    "imageUrl": "/images/Day-06-e4gz9LfA.webp",
+    "imageCredit": {
+      "author": "Jo Heubeck & Domi Pfenninger",
+      "source": "Unsplash",
+      "sourceUrl": "https://unsplash.com/de/@fujibros",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "location": {
+      "name": "Reschensee mit Kirchturm",
+      "lat": 46.8103,
+      "lng": 10.5353,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.8103,10.5353"
+    },
+    "content": {
+      "de": {
+        "title": "Reschensee mit Kirchturm",
+        "region": "Vinschgau",
+        "description": "Aus dem eisigen Reschensee ragt der Kirchturm von Alt-Graun – ein stilles Mahnmal und zugleich das wohl berühmteste Fotomotiv des Vinschgaus. Im Advent wirkt der versunkene Ort besonders zauberhaft, wenn Nebel über dem Wasser liegt."
+      },
+      "it": {
+        "title": "Lago di Resia e campanile",
+        "region": "Val Venosta",
+        "description": "Dal gelido Lago di Resia emerge il campanile di Curon Vecchia: un silenzioso memoriale e insieme l'immagine più celebre della Val Venosta. In Avvento il paese sommerso appare ancora più magico, quando la nebbia sale dall'acqua."
+      },
+      "en": {
+        "title": "Lake Reschen and its Bell Tower",
+        "region": "Vinschgau",
+        "description": "The bell tower of Old Graun rises from the icy Lake Reschen – a quiet memorial and the Vinschgau's most famous photo motif. In Advent the submerged village feels especially magical when mist drifts over the water."
+      },
+      "zh": {
+        "title": "雷西亚湖与钟楼",
+        "region": "文施高",
+        "description": "旧格劳恩的钟楼从冰冷的雷西亚湖中孤然立起——它既是无声的纪念，也是文施高最著名的取景地。降临节里雾气浮在水面，沉没的村庄显得格外梦幻。"
+      }
+    }
+  },
+  {
+    "day": 7,
+    "slug": "schloss-trauttmansdorff",
+    "imageUrl": "/images/Day-07-oZ8sLpOM.webp",
+    "imageCredit": {
+      "author": "renegossner",
+      "source": "Pixabay",
+      "sourceUrl": "https://pixabay.com/users/renegossner-10236719/",
+      "license": "Pixabay License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/"
+    },
+    "location": {
+      "name": "Die Gärten von Schloss Trauttmansdorff",
+      "lat": 46.6608,
+      "lng": 11.1857,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.6608,11.1857"
+    },
+    "content": {
+      "de": {
+        "title": "Die Gärten von Schloss Trauttmansdorff",
+        "region": "Meran",
+        "description": "Die Gärten von Schloss Trauttmansdorff ruhen im Winter unter einer Decke aus Reif und Schnee. Das Schloss, in dem Kaiserin Sissi einst dem Süden entgegenträumte, leuchtet im Advent mit warmen Lichtern über der Stadt."
+      },
+      "it": {
+        "title": "I Giardini di Castel Trauttmansdorff",
+        "region": "Merano",
+        "description": "I Giardini di Castel Trauttmansdorff riposano d'inverno sotto una coltre di brina e neve. Il castello dove l'imperatrice Sissi sognava il Sud brilla in Avvento di luci calde sopra la città."
+      },
+      "en": {
+        "title": "Trauttmansdorff Castle Gardens",
+        "region": "Merano",
+        "description": "The Trauttmansdorff Castle Gardens rest in winter beneath a blanket of frost and snow. The castle where Empress Sissi once dreamed of the south glows with warm lights above the town in Advent."
+      },
+      "zh": {
+        "title": "特劳特曼斯多夫城堡花园",
+        "region": "梅拉诺",
+        "description": "冬日里，特劳特曼斯多夫城堡花园安睡在霜雪之下。茜茜公主曾在此遥想南方，如今城堡在降临节以温暖灯火俯瞰全城。"
+      }
+    }
+  },
+  {
+    "day": 8,
+    "slug": "oetzi-museum-laubengasse",
+    "imageUrl": "/images/Day-08-3N8yBLy0.webp",
+    "imageCredit": {
+      "author": "Laura Meinhardt",
+      "source": "Pexels",
+      "sourceUrl": "https://www.pexels.com/@leefinvrede/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "location": {
+      "name": "Ötzi-Museum & Laubengasse",
+      "lat": 46.4998,
+      "lng": 11.3549,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.4998,11.3549"
+    },
+    "content": {
+      "de": {
+        "title": "Ötzi-Museum & Laubengasse",
+        "region": "Bozen",
+        "description": "Im Ötzi-Museum begegnet man einem Mann, der vor über 5.000 Jahren durch die Alpen wanderte. Draußen lockt die Laubengasse mit funkelnden Schaufenstern, Speckduft und dem ersten Glühwein des Advents."
+      },
+      "it": {
+        "title": "Museo Ötzi & Via dei Portici",
+        "region": "Bolzano",
+        "description": "Al Museo Ötzi si incontra un uomo che oltre 5.000 anni fa attraversava le Alpi. Fuori, Via dei Portici invita con vetrine scintillanti, profumo di speck e il primo vin brulé dell'Avvento."
+      },
+      "en": {
+        "title": "Ötzi Museum & Laubengasse",
+        "region": "Bolzano",
+        "description": "At the Ötzi Museum you meet a man who crossed the Alps more than 5,000 years ago. Outside, the Laubengasse tempts with sparkling shop windows, the scent of speck and the first mulled wine of Advent."
+      },
+      "zh": {
+        "title": "冰人博物馆与拱廊街",
+        "region": "博尔扎诺",
+        "description": "在冰人博物馆，你会遇见一位五千多年前穿越阿尔卑斯山的旅人。馆外的拱廊街则以闪亮的橱窗、烟熏火腿的香气和今冬第一杯热红酒相迎。"
+      }
+    }
+  },
+  {
+    "day": 9,
+    "slug": "seceda",
+    "imageUrl": "/images/Day-09-8nIIiJRY.webp",
+    "imageCredit": {
+      "author": "Daniel J. Schwarz",
+      "source": "Unsplash",
+      "sourceUrl": "https://unsplash.com/de/@danieljschwarz",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "location": {
+      "name": "Seceda-Kamm",
+      "lat": 46.6014,
+      "lng": 11.6989,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.6014,11.6989"
+    },
+    "content": {
+      "de": {
+        "title": "Seceda-Kamm",
+        "region": "Gröden",
+        "description": "Der Seceda-Kamm schneidet wie eine gezackte Klinge in den Himmel über Gröden. Wer im Advent früh aufsteigt, erlebt, wie das erste Licht die schneebedeckten Zinnen färbt und die Dolomiten ganz allein zu gehören scheinen."
+      },
+      "it": {
+        "title": "Cresta della Seceda",
+        "region": "Val Gardena",
+        "description": "La cresta della Seceda taglia come una lama seghettata il cielo sopra la Val Gardena. Chi sale presto in Avvento vede la prima luce colorare le guglie innevate e ha l'impressione che le Dolomiti siano solo sue."
+      },
+      "en": {
+        "title": "Seceda Ridge",
+        "region": "Gardena Valley",
+        "description": "The Seceda ridge cuts into the sky above Val Gardena like a serrated blade. Rise early in Advent and watch the first light paint the snowy peaks – the Dolomites seem to belong to you alone."
+      },
+      "zh": {
+        "title": "塞切达山脊",
+        "region": "加尔代纳谷",
+        "description": "塞切达山脊如锯齿般的刀锋划破加尔代纳谷上空的苍穹。降临节清晨登高，看第一缕阳光染亮雪峰，仿佛整片多洛米蒂只属于你。"
+      }
+    }
+  },
+  {
+    "day": 10,
+    "slug": "erdpyramiden-ritten",
+    "imageUrl": "/images/Day-10-lGwwEXEk.webp",
+    "imageCredit": {
+      "author": "Rey Emsen",
+      "source": "Unsplash",
+      "sourceUrl": "https://unsplash.com/de/@reyemsen",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "location": {
+      "name": "Erdpyramiden von Ritten",
+      "lat": 46.5311,
+      "lng": 11.3869,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.5311,11.3869"
+    },
+    "content": {
+      "de": {
+        "title": "Erdpyramiden von Ritten",
+        "region": "Ritten",
+        "description": "Die Erdpyramiden von Ritten stehen wie verwunschene Wächter in den Hängen über dem Eisacktal. Schnee krönt ihre Steinköpfe, und in der klaren Winterluft wirken die Lehmnadeln beinahe wie eine kleine Fabelwelt."
+      },
+      "it": {
+        "title": "Piramidi di terra del Renon",
+        "region": "Renon",
+        "description": "Le Piramidi di terra del Renon si ergono come custodi incantati sui pendii sopra la Valle Isarco. La neve corona le loro teste di pietra e nell'aria limpida d'inverno sembrano un piccolo mondo fatato."
+      },
+      "en": {
+        "title": "Ritten Earth Pyramids",
+        "region": "Ritten",
+        "description": "The Ritten earth pyramids stand like enchanted guardians on the slopes above the Eisack Valley. Snow crowns their stone caps, and in the clear winter air the clay needles seem almost like a little fable world."
+      },
+      "zh": {
+        "title": "雷农土金字塔",
+        "region": "雷农",
+        "description": "雷农土金字塔如被施了魔法的卫士矗立在伊萨尔科谷上方的山坡。积雪为它们的石冠加冕，清冽的冬日空气里，这些泥柱宛如童话世界。"
+      }
+    }
+  },
+  {
+    "day": 11,
+    "slug": "st-magdalena-villnoess",
+    "imageUrl": "/images/Day-11-4Fx0gxrk.webp",
+    "imageCredit": {
+      "author": "David Becker",
+      "source": "Unsplash",
+      "sourceUrl": "https://unsplash.com/de/@beckerworks",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "location": {
+      "name": "St. Magdalena im Villnößtal",
+      "lat": 46.6264,
+      "lng": 11.7176,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.6264,11.7176"
+    },
+    "content": {
+      "de": {
+        "title": "St. Magdalena im Villnößtal",
+        "region": "Villnößtal",
+        "description": "Die kleine Kirche St. Magdalena liegt wie ein Postkartenmotiv im Schnee, dahinter ragen die gezackten Geisler. Im Advent, wenn die Lichter im Tal angehen, wirkt das Villnößtal wie ein stilles Bild aus einer längst vergangenen Zeit."
+      },
+      "it": {
+        "title": "Santa Maddalena in Val di Funes",
+        "region": "Val di Funes",
+        "description": "La piccola chiesa di Santa Maddalena giace nella neve come una cartolina, con le Odle frastagliate alle spalle. In Avvento, quando le luci si accendono a valle, la Val di Funes sembra un'immagine silenziosa di tempi lontani."
+      },
+      "en": {
+        "title": "St. Magdalena in Villnöß Valley",
+        "region": "Villnöß Valley",
+        "description": "The little church of St. Magdalena lies in the snow like a postcard, the jagged Geisler peaks rising behind it. In Advent, when lights come on in the valley, the Villnöß seems a quiet picture from a distant age."
+      },
+      "zh": {
+        "title": "维兰内斯谷的圣玛格达莱纳教堂",
+        "region": "维兰内斯谷",
+        "description": "圣玛格达莱纳小教堂如明信片般静卧雪中，身后是嶙峋的盖斯勒群峰。降临节里山谷亮起灯火，维兰内斯谷宛如一幅来自久远年代的静谧画卷。"
+      }
+    }
+  },
+  {
+    "day": 12,
+    "slug": "messner-mountain-museum-firmian",
+    "imageUrl": "/images/Day-12-MFe2GhMH.webp",
+    "imageCredit": {
+      "author": "Mauro Grazzi",
+      "source": "Unsplash",
+      "sourceUrl": "https://unsplash.com/de/@mauro_grazzi",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "location": {
+      "name": "Messner Mountain Museum Firmian",
+      "lat": 46.4814,
+      "lng": 11.3047,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.4814,11.3047"
+    },
+    "content": {
+      "de": {
+        "title": "Messner Mountain Museum Firmian",
+        "region": "Bozen",
+        "description": "Auf Schloss Sigmundskron erzählt das Messner Mountain Museum Firmian von der Faszination der Berge. Im Winter liegt die Burg still über dem Etschtal, und Reinhold Messners Geschichten wirken beim Kerzenschein noch eindringlicher."
+      },
+      "it": {
+        "title": "Messner Mountain Museum Firmian",
+        "region": "Bolzano",
+        "description": "Al Castel Firmiano il Messner Mountain Museum racconta il fascino delle montagne. D'inverno il castello riposa sopra la Valle dell'Adige e le storie di Reinhold Messner, al lume di candela, sembrano ancora più intense."
+      },
+      "en": {
+        "title": "Messner Mountain Museum Firmian",
+        "region": "Bolzano",
+        "description": "At Sigmundskron Castle, the Messner Mountain Museum Firmian tells of the allure of mountains. In winter the castle rests quietly above the Adige Valley, and Reinhold Messner's stories feel even more vivid by candlelight."
+      },
+      "zh": {
+        "title": "梅斯纳尔山地博物馆菲尔米安",
+        "region": "博尔扎诺",
+        "description": "梅斯纳尔山地博物馆坐落于西格蒙德克隆城堡，讲述着群山的魅力。冬日城堡静卧阿迪杰谷之上，烛光中莱因霍尔德·梅斯纳尔的故事更显动人。"
+      }
+    }
+  },
+  {
+    "day": 13,
+    "slug": "reinbach-wasserfaelle",
+    "imageUrl": "/images/Day-13-nw9dWJIk.webp",
+    "imageCredit": {
+      "author": "Fabrizio Coco",
+      "source": "Unsplash",
+      "sourceUrl": "https://unsplash.com/de/@fabcoco",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "location": {
+      "name": "Reinbach-Wasserfälle",
+      "lat": 46.945,
+      "lng": 11.9528,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.945,11.9528"
+    },
+    "content": {
+      "de": {
+        "title": "Reinbach-Wasserfälle",
+        "region": "Sand in Taufers",
+        "description": "Die Reinbach-Wasserfälle stürzen in drei Stufen durch den winterlichen Wald unterhalb von Burg Taufers. Wenn sich Eis an den Felsen bildet und das Wasser donnert, spürt man die wilde Kraft des Tauferer Ahrntals."
+      },
+      "it": {
+        "title": "Cascate di Reinbach",
+        "region": "Campo Tures",
+        "description": "Le Cascate di Reinbach precipitano in tre salti nel bosco invernale sotto Castel Tures. Quando il ghiaccio si forma sulle rocce e l'acqua ruggisce, si percepisce la forza selvaggia della Valle di Tures."
+      },
+      "en": {
+        "title": "Reinbach Waterfalls",
+        "region": "Sand in Taufers",
+        "description": "The Reinbach Waterfalls plunge in three tiers through the winter forest below Taufers Castle. When ice forms on the rocks and the water roars, you feel the wild force of the Tures Valley."
+      },
+      "zh": {
+        "title": "莱因巴赫瀑布",
+        "region": "坎波图雷斯",
+        "description": "莱因巴赫瀑布分三级飞泻，穿过陶弗斯城堡下方的冬日森林。岩石结冰、水声轰鸣，陶弗斯谷的野性力量扑面而来。"
+      }
+    }
+  },
+  {
+    "day": 14,
+    "slug": "brixner-dom-hofburg",
+    "imageUrl": "/images/Day-14-PUm7ju4s.webp",
+    "imageCredit": {
+      "author": "Marcus Ganahl",
+      "source": "Unsplash",
+      "sourceUrl": "https://unsplash.com/de/@marcus_ganahl",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "location": {
+      "name": "Brixner Dom & Hofburg",
+      "lat": 46.7158,
+      "lng": 11.6578,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.7158,11.6578"
+    },
+    "content": {
+      "de": {
+        "title": "Brixner Dom & Hofburg",
+        "region": "Brixen",
+        "description": "Der Brixner Dom und die Hofburg erzählen von Jahrhunderten bischöflicher Macht. Im Advent verwandelt sich der Domplatz in einen duftenden Markt aus Lebkuchen, Handwerk und leise klingenden Glocken."
+      },
+      "it": {
+        "title": "Duomo di Bressanone e Hofburg",
+        "region": "Bressanone",
+        "description": "Il Duomo di Bressanone e la Hofburg raccontano secoli di potere vescovile. In Avvento la piazza del Duomo diventa un mercato profumato di pan pepato, artigianato e campane dal suono sommesso."
+      },
+      "en": {
+        "title": "Brixen Cathedral & Hofburg",
+        "region": "Brixen",
+        "description": "Brixen Cathedral and the Hofburg tell of centuries of episcopal power. In Advent the cathedral square becomes a fragrant market of gingerbread, crafts and softly ringing bells."
+      },
+      "zh": {
+        "title": "布里克森大教堂与霍夫堡",
+        "region": "布里克森",
+        "description": "布里克森大教堂与霍夫堡诉说着数百年的主教权势。降临节里，大教堂广场化作飘着姜饼香气、摆满手工艺品、回荡轻柔钟声的市集。"
+      }
+    }
+  },
+  {
+    "day": 15,
+    "slug": "kloster-neustift",
+    "imageUrl": "/images/Day-15-O5WDTQ7u.webp",
+    "imageCredit": {
+      "author": "Burkhard Mücke",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kr%C3%A4utergarten_in_Kloster_Neustift_11.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "location": {
+      "name": "Kloster Neustift",
+      "lat": 46.74,
+      "lng": 11.6369,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.74,11.6369"
+    },
+    "content": {
+      "de": {
+        "title": "Kloster Neustift",
+        "region": "Vahrn bei Brixen",
+        "description": "Das Augustiner-Chorherrenstift Neustift beeindruckt mit barocker Bibliothek, alten Kreuzgängen und Weinbergen, die bis an die Mauern reichen. Im Advent liegt über dem Kloster eine besondere Ruhe – und der Klosterwein wärmt von innen."
+      },
+      "it": {
+        "title": "Abbazia di Novacella",
+        "region": "Varna presso Bressanone",
+        "description": "L'Abbazia di Novacella incanta con la biblioteca barocca, i chiostri antichi e i vigneti che salgono fino alle mura. In Avvento regna un silenzio speciale e il vino del monastero scalda il cuore."
+      },
+      "en": {
+        "title": "Neustift Monastery",
+        "region": "Vahrn near Brixen",
+        "description": "Neustift Abbey impresses with its baroque library, ancient cloisters and vineyards that climb to its walls. In Advent a special stillness settles over the monastery – and its wine warms you from within."
+      },
+      "zh": {
+        "title": "诺伊施蒂夫特修道院",
+        "region": "布里克森附近的瓦尔纳",
+        "description": "诺伊施蒂夫特修道院以巴洛克图书馆、古老回廊和一直延伸到墙边的葡萄园令人赞叹。降临节里，修道院笼罩着别样的宁静，自酿的葡萄酒由内而外温暖人心。"
+      }
+    }
+  },
+  {
+    "day": 16,
+    "slug": "gilfenklamm",
+    "imageUrl": "/images/Day-16-UgnqmpYg.webp",
+    "imageCredit": {
+      "author": "Reinhard Müller",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gilfenklamm_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "location": {
+      "name": "Gilfenklamm",
+      "lat": 46.8833,
+      "lng": 11.3536,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.8833,11.3536"
+    },
+    "content": {
+      "de": {
+        "title": "Gilfenklamm",
+        "region": "Ratschings",
+        "description": "Die Gilfenklamm schneidet sich in weiß schimmernden Marmor und stürzt in Kaskaden ins Tal. Im Winter hängen Eiszapfen über dem Steg, und das Rauschen des Wassers begleitet den Advent wie ein leises Lied."
+      },
+      "it": {
+        "title": "Gola di Gilfen",
+        "region": "Racines",
+        "description": "La Gola di Gilfen incide il marmo bianco e precipita a cascate verso valle. D'inverno lunghi ghiaccioli pendono dalla passerella e il rumore dell'acqua accompagna l'Avvento come una canzone sommessa."
+      },
+      "en": {
+        "title": "Gilfen Gorge",
+        "region": "Ratschings",
+        "description": "The Gilfen Gorge carves through shimmering white marble and tumbles in cascades toward the valley. In winter icicles hang above the walkway, and the rush of water accompanies Advent like a quiet song."
+      },
+      "zh": {
+        "title": "吉尔芬峡谷",
+        "region": "拉奇内斯",
+        "description": "吉尔芬峡谷在泛白的大理石间劈开通道，层叠跌入山谷。冬日步道上方垂着冰柱，水声如低吟的歌声陪伴着降临节。"
+      }
+    }
+  },
+  {
+    "day": 17,
+    "slug": "kalterer-see-weinstrasse",
+    "imageUrl": "/images/Day-17-jjJWlJ6D.webp",
+    "imageCredit": {
+      "author": "Hubert Berberich (HubiB)",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KalternWeinstrasseSee.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "location": {
+      "name": "Kalterer See & Südtiroler Weinstraße",
+      "lat": 46.3806,
+      "lng": 11.2528,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.3806,11.2528"
+    },
+    "content": {
+      "de": {
+        "title": "Kalterer See & Südtiroler Weinstraße",
+        "region": "Überetsch",
+        "description": "Der Kalterer See liegt im Winter still zwischen Weinbergen, und entlang der Südtiroler Weinstraße duften Fässer und alte Keller. Im Advent laden die Dörfer des Überetsch zu Wein, Zelten und wärmendem Feuer ein."
+      },
+      "it": {
+        "title": "Lago di Caldaro & Strada del Vino",
+        "region": "Oltradige",
+        "description": "D'inverno il Lago di Caldaro riposa tra i vigneti, e lungo la Strada del Vino profumano botti e cantine antiche. In Avvento i paesi dell'Oltradige invitano a vino, pan di zenzero e fuochi caldi."
+      },
+      "en": {
+        "title": "Lake Kaltern & South Tyrolean Wine Road",
+        "region": "Überetsch",
+        "description": "In winter Lake Kaltern lies still among the vineyards, and along the South Tyrolean Wine Road barrels and old cellars give off their scent. In Advent the villages of the Überetsch invite you to wine, gingerbread and warming fires."
+      },
+      "zh": {
+        "title": "卡尔达罗湖与南蒂罗尔葡萄酒之路",
+        "region": "上埃奇",
+        "description": "冬日里卡尔达罗湖静卧葡萄园之间，南蒂罗尔葡萄酒之路旁酒桶与古老酒窖散发着醇香。降临节里，上埃奇的村庄以美酒、姜饼和温暖的炉火相邀。"
+      }
+    }
+  },
+  {
+    "day": 18,
+    "slug": "tappeinerweg",
+    "imageUrl": "/images/Day-18-k7IvE6l2.webp",
+    "imageCredit": {
+      "author": "Martin Thurnherr",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tappeinerweg_panorama_01.png",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "location": {
+      "name": "Tappeinerweg",
+      "lat": 46.6735,
+      "lng": 11.1648,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.6735,11.1648"
+    },
+    "content": {
+      "de": {
+        "title": "Tappeinerweg",
+        "region": "Meran",
+        "description": "Der Tappeinerweg schlängelt sich hoch über Meran durch Palmen, Zypressen und laublose Bäume. Im Advent trifft hier mediterrane Milde auf schneebedeckte Berge – ein Spaziergang, der Körper und Seele wärmt."
+      },
+      "it": {
+        "title": "Passeggiata Tappeiner",
+        "region": "Merano",
+        "description": "La Passeggiata Tappeiner si snoda sopra Merano tra palme, cipressi e alberi spogli. In Avvento la mitezza mediterranea incontra le montagne innevate: una camminata che scalda corpo e anima."
+      },
+      "en": {
+        "title": "Tappeiner Promenade",
+        "region": "Merano",
+        "description": "The Tappeiner Promenade winds high above Merano past palms, cypresses and bare trees. In Advent Mediterranean mildness meets snow-capped mountains – a walk that warms body and soul."
+      },
+      "zh": {
+        "title": "塔佩纳步道",
+        "region": "梅拉诺",
+        "description": "塔佩纳步道在梅拉诺高处蜿蜒，穿过棕榈、柏树与落叶的枝干。降临节里，地中海的温润与白雪覆盖的群山在此相遇——一段温暖身心的散步。"
+      }
+    }
+  },
+  {
+    "day": 19,
+    "slug": "bletterbachschlucht",
+    "imageUrl": "/images/Day-19-lXP9tA1O.webp",
+    "imageCredit": {
+      "author": "rachel_thecat",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bletterbach_HDR.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "location": {
+      "name": "Bletterbachschlucht",
+      "lat": 46.3575,
+      "lng": 11.3297,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.3575,11.3297"
+    },
+    "content": {
+      "de": {
+        "title": "Bletterbachschlucht",
+        "region": "Aldein",
+        "description": "Die Bletterbachschlucht legt 250 Millionen Jahre Erdgeschichte offen. Im Winter wirkt der UNESCO-Geopark still und geheimnisvoll, wenn Schnee auf den roten Gesteinsschichten liegt und der Bach leise unter dem Eis murmelt."
+      },
+      "it": {
+        "title": "Gola del Bletterbach",
+        "region": "Aldino",
+        "description": "La Gola del Bletterbach svela 250 milioni di anni di storia della Terra. D'inverno il Geoparco UNESCO appare silenzioso e misterioso, con la neve sugli strati rossi e il ruscello che mormora sotto il ghiaccio."
+      },
+      "en": {
+        "title": "Bletterbach Gorge",
+        "region": "Aldein",
+        "description": "The Bletterbach Gorge lays bare 250 million years of Earth history. In winter the UNESCO Geopark feels still and mysterious, with snow on the red rock layers and the stream murmuring beneath the ice."
+      },
+      "zh": {
+        "title": "布莱特巴赫峡谷",
+        "region": "阿尔代因",
+        "description": "布莱特巴赫峡谷展露了两亿五千万年的地球历史。冬日里，白雪覆上红色岩层，溪流在冰下低语，这座联合国教科文组织地质公园显得静谧而神秘。"
+      }
+    }
+  },
+  {
+    "day": 20,
+    "slug": "plattkofel-langkofel",
+    "imageUrl": "/images/Day-20-Y7Nnyleq.webp",
+    "imageCredit": {
+      "author": "Robinhood50",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Langkofel_und_Plattkofel_von_der_Seiser_Alm.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "location": {
+      "name": "Plattkofel & Langkofel",
+      "lat": 46.525,
+      "lng": 11.7315,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.525,11.7315"
+    },
+    "content": {
+      "de": {
+        "title": "Plattkofel & Langkofel",
+        "region": "Dolomiten",
+        "description": "Plattkofel und Langkofel erheben sich wie zwei schlafende Riesen über die verschneite Seiser Alm. Im Advent färbt die untergehende Sonne ihre Flanken rot, und die kalte Luft trägt den Klang der Glocken aus den Tälern herauf."
+      },
+      "it": {
+        "title": "Sassopiatto & Sassolungo",
+        "region": "Dolomiti",
+        "description": "Sassopiatto e Sassolungo si alzano come due giganti addormentati sopra l'Alpe di Siusi innevata. In Avvento il sole al tramonto tinge di rosso le loro pareti e l'aria fredda porta su il suono delle campane."
+      },
+      "en": {
+        "title": "Plattkofel & Langkofel",
+        "region": "Dolomites",
+        "description": "Plattkofel and Langkofel rise like two sleeping giants above the snowy Seiser Alm. In Advent the setting sun paints their flanks red, and the cold air carries the sound of bells up from the valleys."
+      },
+      "zh": {
+        "title": "普拉特科费尔与朗科费尔",
+        "region": "多洛米蒂",
+        "description": "普拉特科费尔与朗科费尔如两位沉睡的巨人，矗立在积雪的塞瑟阿尔姆之上。降临节里夕阳将山壁染红，冷冽的空气把山谷的钟声送上高处。"
+      }
+    }
+  },
+  {
+    "day": 21,
+    "slug": "passeiertal-sandwirt",
+    "imageUrl": "/images/Day-21-j9seE9ac.webp",
+    "imageCredit": {
+      "author": "Pelz",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andreas_Hofer_Geburtshaus_4071.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "location": {
+      "name": "Passeiertal & Sandwirt",
+      "lat": 46.8142,
+      "lng": 11.2472,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.8142,11.2472"
+    },
+    "content": {
+      "de": {
+        "title": "Passeiertal & Sandwirt",
+        "region": "Passeiertal",
+        "description": "Im Sandwirt in St. Leonhard, dem Geburtsort von Andreas Hofer, riecht es nach Holz, Speck und Geschichte. Im Advent erzählen die alten Stuben von Tiroler Freiheit, während draußen die Berge im Schnee versinken."
+      },
+      "it": {
+        "title": "Val Passiria & Sandwirt",
+        "region": "Val Passiria",
+        "description": "Nel Sandwirt di San Leonardo, luogo natale di Andreas Hofer, si respira odore di legno, speck e storia. In Avvento le antiche stube raccontano la libertà tirolese, mentre fuori le montagne sprofondano nella neve."
+      },
+      "en": {
+        "title": "Passeier Valley & Sandwirt",
+        "region": "Passeier Valley",
+        "description": "At the Sandwirt in St. Leonhard, Andreas Hofer's birthplace, the air smells of wood, speck and history. In Advent the old parlours tell of Tyrolean freedom while the mountains outside sink into snow."
+      },
+      "zh": {
+        "title": "帕塞里亚谷与桑德维特",
+        "region": "帕塞里亚谷",
+        "description": "在安德烈亚斯·霍费尔的出生地——圣莱昂纳多的桑德维特农庄，木香、烟熏火腿与历史气息交织。降临节里，古老的山地居室讲述着蒂罗尔的自由往事，窗外群山没入雪中。"
+      }
+    }
+  },
+  {
+    "day": 22,
+    "slug": "spronser-seen",
+    "imageUrl": "/images/Day-22-lIsfMzTc.webp",
+    "imageCredit": {
+      "author": "Maurizio Ceol",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lago_di_sopranes_1_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "location": {
+      "name": "Spronser Seen",
+      "lat": 46.7189,
+      "lng": 11.0789,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.7189,11.0789"
+    },
+    "content": {
+      "de": {
+        "title": "Spronser Seen",
+        "region": "Texelgruppe",
+        "description": "Die Spronser Seen liegen wie dunkle Spiegel auf dem Hochplateau der Texelgruppe. Im Winter sind sie oft erstarrt, während Gämsen über die schneebedeckten Hänge ziehen und die Stille der Berge fast greifbar wird."
+      },
+      "it": {
+        "title": "Laghi di Sopranes",
+        "region": "Gruppo di Tessa",
+        "description": "I Laghi di Sopranes giacciono come specchi scuri sull'altopiano del Gruppo di Tessa. D'inverno sono spesso ghiacciati, mentre i camosci attraversano i pendii innevati e il silenzio delle montagne diventa quasi tangibile."
+      },
+      "en": {
+        "title": "Spronser Lakes",
+        "region": "Texel Group",
+        "description": "The Spronser Lakes lie like dark mirrors on the high plateau of the Texel Group. In winter they are often frozen, while chamois cross the snowy slopes and the silence of the mountains becomes almost tangible."
+      },
+      "zh": {
+        "title": "斯普龙湖群",
+        "region": "泰塞尔山群",
+        "description": "斯普龙湖群如深色明镜般散布在泰塞尔山群的高原上。冬日湖面多半封冻，岩羚羊穿行于雪坡之间，群山的寂静几乎触手可及。"
+      }
+    }
+  },
+  {
+    "day": 23,
+    "slug": "fragsburg-schloss-katzenzungen",
+    "imageUrl": "/images/Day-23-QRJxkqut.webp",
+    "imageCredit": {
+      "author": "Besenbinder",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Blue_Hour%22_in_Prissian,_Ferienwohnung_Gamper,_Jakobsweg_zwischen_Meran_und_Bozen,_Trentino,_S%C3%BCdtirol,_Italien_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "location": {
+      "name": "Fragsburg & Schloss Katzenzungen",
+      "lat": 46.6794,
+      "lng": 11.2078,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.6794,11.2078"
+    },
+    "content": {
+      "de": {
+        "title": "Fragsburg & Schloss Katzenzungen",
+        "region": "Meraner Land",
+        "description": "Die Fragsburg blickt von der Höhe auf Meran herab, während Schloss Katzenzungen bei Prissian den ältesten Weinberg der Welt beherbergt. Im Advent wirken beide still und verwunschen – wie zwei vergessene Märchenschlösser im Schnee."
+      },
+      "it": {
+        "title": "Fragsburg & Castel Katzenzungen",
+        "region": "Burgraviato",
+        "description": "La Fragsburg guarda Merano dall'alto, mentre Castel Katzenzungen presso Prissiano custodisce il vigneto più antico del mondo. In Avvento entrambi appaiono silenziosi e incantati, come due castelli fatati dimenticati nella neve."
+      },
+      "en": {
+        "title": "Fragsburg & Katzenzungen Castle",
+        "region": "Meran area",
+        "description": "The Fragsburg looks down over Merano, while Katzenzungen Castle near Prissian holds the world's oldest vine. In Advent both stand quiet and enchanted – like two forgotten fairy-tale castles in the snow."
+      },
+      "zh": {
+        "title": "弗拉格斯堡与卡岑聪根城堡",
+        "region": "梅拉诺地区",
+        "description": "弗拉格斯堡居高俯瞰梅拉诺，而普里西安附近的卡岑聪根城堡守护着世界上最古老的葡萄藤。降临节里，两座城堡静默如被施了魔法，仿佛雪中两座被遗忘的童话城堡。"
+      }
+    }
+  },
+  {
+    "day": 24,
+    "slug": "christkindlmarkt-bozen-meran",
+    "imageUrl": "/images/Day-24-JLQkEgi0.webp",
+    "imageCredit": {
+      "author": "Giovanni Ussi",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urban_photography_of_Bolzano_-_Photo_by_Giovanni_Ussi_74.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "location": {
+      "name": "Christkindlmarkt Bozen & Meran",
+      "lat": 46.4983,
+      "lng": 11.3548,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=46.4983,11.3548"
+    },
+    "content": {
+      "de": {
+        "title": "Christkindlmarkt Bozen & Meran",
+        "region": "Bozen & Meran",
+        "description": "Am 24. Dezember leuchten die Christkindlmärkte von Bozen und Meran in ihrem schönsten Glanz. Zwischen Waltherplatz und Passerpromenade duften Zelten, Glühwein und Tannengrün – und für einen Moment wird Südtirol zu einem einzigen großen Weihnachtszimmer."
+      },
+      "it": {
+        "title": "Mercatini di Natale di Bolzano e Merano",
+        "region": "Bolzano e Merano",
+        "description": "Il 24 dicembre i mercatini di Natale di Bolzano e Merano brillano del loro splendore più bello. Tra Piazza Walther e la passeggiata sul Passirio profumano pan di zenzero, vin brulé e rami d'abete: per un attimo l'Alto Adige diventa un unico grande salotto natalizio."
+      },
+      "en": {
+        "title": "Bolzano & Merano Christmas Markets",
+        "region": "Bolzano & Merano",
+        "description": "On 24 December the Christmas markets of Bolzano and Merano shine at their brightest. Between Waltherplatz and the Passer promenade drift the scents of gingerbread, mulled wine and fir branches – and for a moment South Tyrol becomes one great Christmas parlour."
+      },
+      "zh": {
+        "title": "博尔扎诺与梅拉诺圣诞市场",
+        "region": "博尔扎诺与梅拉诺",
+        "description": "12月24日，博尔扎诺与梅拉诺的圣诞市场绽放出最璀璨的光彩。瓦尔特广场与帕塞里奥河畔之间弥漫着姜饼、热红酒和冷杉枝的芬芳——这一刻，整个南蒂罗尔化作一间巨大的圣诞客厅。"
+      }
+    }
+  }
+]

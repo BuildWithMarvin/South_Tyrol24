@@ -1,0 +1,5 @@
+pinterest für app promo auch in der der buy me a coffe phase
+
+Lizensen einbinden von 
+
+alias claude-ds='ANTHROPIC_BASE_URL="https://api.deepseek.com/anthropic" ANTHROPIC_AUTH_TOKEN="sk-ccf4db234a0e4a2b91a1ec587a4871f5" ANTHROPIC_MODEL="deepseek-chat" claude'

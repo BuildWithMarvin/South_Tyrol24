@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Südtirol Adventskalender</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+button{font-family:'DM Sans',system-ui,sans-serif}
+.win{position:relative;width:44px;height:56px;padding:0;border:1.5px solid #4a4268;border-radius:22px 22px 3px 3px;background:#181427;color:#9a93b8;font-weight:700;font-size:17px;line-height:1;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;box-sizing:border-box}
+.win:disabled{cursor:default}
+.win:focus-visible{outline:2px solid #ffffff;outline-offset:2px}
+.win.ready{background:linear-gradient(#5c3a22,#3a2416);border-color:#f0b35a;color:#ffd9a0}
+.win.today{animation:pulse 2.4s ease-in-out infinite}
+.win.open{background:linear-gradient(#ffe29a,#f3a04a);border-color:#ffd27a;color:#3a1a08;box-shadow:0 0 16px rgba(255,190,100,.6)}
+.flame{display:block;width:5px;height:8px;border-radius:50% 50% 40% 40%;background:#ffcf70}
+.open .flame{background:#3a1a08}
+.star{display:block;fill:#ffcf70}
+.open .star{fill:#3a1a08}
+.roof{height:34px;clip-path:polygon(6% 0,94% 0,100% 100%,0 100%);background:linear-gradient(180deg,#eef2fa 0,#eef2fa 24%,#2a2542 24%,#2a2542 100%)}
+.lang{width:40px;height:40px;border:0;border-radius:20px;background:transparent;color:#cfc8e6;font-weight:700;font-size:12px;letter-spacing:.08em;cursor:pointer}
+.lang.on{background:#f0b35a;color:#2a1608}
+.lang:focus-visible{outline:2px solid #ffffff;outline-offset:1px}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(240,179,90,.55),0 0 14px rgba(240,179,90,.4)}50%{box-shadow:0 0 0 6px rgba(240,179,90,0),0 0 20px rgba(240,179,90,.6)}}
+@media (prefers-reduced-motion:reduce){.win.today{animation:none}}
+</style>
+</helmet>
+<div style="position:relative;width:390px;height:1200px;overflow:hidden;background:#151830;font-family:'DM Sans',system-ui,sans-serif">
+
+  <div style="position:absolute;left:0;top:0;width:390px;height:480px;background:linear-gradient(180deg,#0d1230 0%,#1f2552 45%,#4a3b6e 72%,#d98f86 100%)"></div>
+
+  <svg aria-hidden="true" width="390" height="260" viewBox="0 0 390 260" style="position:absolute;left:0;top:0">
+    <g fill="#f6efd8">
+      <circle cx="40" cy="96" r="1.2" opacity=".8"/><circle cx="72" cy="150" r="1" opacity=".6"/>
+      <circle cx="118" cy="84" r="1.3" opacity=".9"/><circle cx="14" cy="190" r="1" opacity=".5"/>
+      <circle cx="350" cy="120" r="1.3" opacity=".8"/><circle cx="372" cy="176" r="1" opacity=".6"/>
+      <circle cx="322" cy="214" r="1.1" opacity=".7"/><circle cx="52" cy="232" r="1.1" opacity=".6"/>
+      <circle cx="196" cy="70" r="1" opacity=".5"/><circle cx="268" cy="96" r="1.2" opacity=".7"/>
+      <circle cx="154" cy="236" r="1" opacity=".5"/><circle cx="300" cy="80" r="1" opacity=".6"/>
+    </g>
+  </svg>
+
+  <svg aria-hidden="true" width="390" height="290" viewBox="0 0 390 290" style="position:absolute;left:0;top:262px">
+    <defs>
+      <linearGradient id="far" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a5a94"/><stop offset="1" stop-color="#2d3060"/></linearGradient>
+      <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7d6a99"/><stop offset="0.7" stop-color="#2f2d55"/><stop offset="1" stop-color="#1c1f3d"/></linearGradient>
+      <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6b99a"/><stop offset="1" stop-color="#c8738a"/></linearGradient>
+      <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3d4c8" stop-opacity="0"/><stop offset="1" stop-color="#f3d4c8" stop-opacity="0.22"/></linearGradient>
+      <radialGradient id="moonglow"><stop offset="0" stop-color="#f6efd8" stop-opacity="0.45"/><stop offset="1" stop-color="#f6efd8" stop-opacity="0"/></radialGradient>
+    </defs>
+    <circle cx="332" cy="36" r="30" fill="url(#moonglow)"/>
+    <circle cx="332" cy="36" r="12" fill="#f6efd8"/>
+    <path d="M0 260 L0 200 L40 170 L70 190 L110 150 L150 180 L190 140 L230 170 L270 135 L310 165 L350 145 L390 175 L390 260 Z" fill="url(#far)" opacity="0.9"/>
+    <path d="M0 290 L0 212 L24 190 L44 200 L70 140 L84 150 L104 96 L116 70 L128 92 L136 84 L152 140 L176 170 L206 130 L222 110 L238 60 L250 52 L262 78 L270 70 L288 130 L312 150 L336 120 L352 130 L372 176 L390 190 L390 290 Z" fill="url(#mid)"/>
+    <g fill="url(#glow)" opacity="0.78">
+      <path d="M116 70 L128 92 L136 84 L152 140 L130 152 L120 118 Z"/>
+      <path d="M250 52 L262 78 L270 70 L288 130 L264 142 L254 100 Z"/>
+      <path d="M238 60 L250 52 L254 100 L240 110 L226 108 Z"/>
+      <path d="M336 120 L352 130 L372 176 L346 168 Z"/>
+    </g>
+    <rect x="0" y="190" width="390" height="80" fill="url(#mist)"/>
+    <path d="M0 290 L0 262 C70 236 130 256 210 244 C280 232 340 248 390 236 L390 290 Z" fill="#151830"/>
+    <path d="M14 222 L5 238 L9 238 L2 252 L7 252 L-1 268 L29 268 L21 252 L26 252 L19 238 L23 238 Z" fill="#0f1226"/>
+    <path d="M376 214 L367 230 L371 230 L364 244 L369 244 L361 260 L391 260 L383 244 L388 244 L381 230 L385 230 Z" fill="#0f1226"/>
+  </svg>
+
+  <div style="position:absolute;left:0;top:0;width:390px;box-sizing:border-box;padding:18px 18px 0;display:flex;justify-content:space-between;align-items:center">
+    <div style="height:44px;box-sizing:border-box;padding:0 14px;border-radius:22px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);display:flex;align-items:center;gap:10px;color:#f6e9d2;font-size:14px;font-weight:700">
+      <span aria-label="{{progressLabel}}">{{count}} <span style="color:#f0b35a">/</span> 24</span>
+      <span style="display:block;width:36px;height:3px;border-radius:2px;background:rgba(255,255,255,.18)"><span style="display:block;height:3px;border-radius:2px;background:#f0b35a;width:{{progress}}"></span></span>
+    </div>
+    <div style="height:44px;box-sizing:border-box;padding:2px;border-radius:22px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);display:flex;align-items:center">
+      <sc-for list="{{langs}}" as="l" hint-placeholder-count="4">
+        <button class="lang {{l.cls}}" onClick="{{l.tap}}" aria-pressed="{{l.pressed}}" aria-label="{{l.name}}">{{l.code}}</button>
+      </sc-for>
+    </div>
+  </div>
+
+  <div style="position:absolute;left:0;top:84px;width:390px;box-sizing:border-box;padding:0 34px;display:flex;flex-direction:column;align-items:center;text-align:center">
+    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" style="display:block;fill:#f0b35a"><path d="M12 1 L14.6 9.4 L23 12 L14.6 14.6 L12 23 L9.4 14.6 L1 12 L9.4 9.4 Z"/></svg>
+    <h1 style="margin:10px 0 0;font-family:'Cormorant Garamond','Noto Serif SC',Georgia,serif;font-weight:700;font-size:40px;line-height:1.02;color:#f8ecd6;letter-spacing:.005em">{{t.title}}</h1>
+    <p style="margin:12px 0 0;font-size:14px;line-height:1.5;color:#d6cfea;max-width:300px">{{t.sub}}</p>
+  </div>
+
+  <div style="position:absolute;left:18px;top:505px;width:354px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;row-gap:6px">
+    <sc-for list="{{houses}}" as="h" hint-placeholder-count="8">
+      <div style="{{h.wrap}}">
+        <div class="roof"></div>
+        <div style="{{h.body}}">
+          <sc-for list="{{h.windows}}" as="w" hint-placeholder-count="3">
+            <button class="win {{w.cls}}" onClick="{{w.tap}}" disabled="{{w.locked}}" aria-label="{{w.label}}">
+              <sc-if value="{{w.candle}}" hint-placeholder-val="{{false}}"><span class="flame" aria-hidden="true"></span></sc-if>
+              <sc-if value="{{w.star}}" hint-placeholder-val="{{false}}"><svg class="star" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><path d="M12 1 L14.6 9.4 L23 12 L14.6 14.6 L12 23 L9.4 14.6 L1 12 L9.4 9.4 Z"/></svg></sc-if>
+              <span>{{w.day}}</span>
+            </button>
+          </sc-for>
+        </div>
+      </div>
+    </sc-for>
+  </div>
+
+  <div style="position:absolute;left:0;bottom:0;width:390px;height:150px;background:linear-gradient(180deg,rgba(13,15,28,0),#0d0f1c 70%)"></div>
+  <div style="position:absolute;left:20px;right:20px;bottom:0;height:90px;border-top:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;font-size:13px;color:#a8a1c4">{{t.foot}}</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"today":{"editor":"range","default":8,"min":1,"max":24,"step":1,"section":"Demo"}}'>
+class Component extends DCLogic {
+  openedMap() {
+    return (this.state && this.state.opened) || { 1: true, 2: true, 3: true, 5: true };
+  }
+  renderVals() {
+    const today = Math.max(1, Math.min(24, Number(this.props.today ?? 8)));
+    const lang = (this.state && this.state.lang) || 'de';
+    const opened = this.openedMap();
+    const T = {
+      de: { title: 'Südtirol Adventskalender', sub: '24 Orte, 24 Türchen – ein Advent voller Dolomiten, Bergdörfer und warmem Winterlicht.', foot: 'Mit Liebe für Südtirol gestaltet.', door: 'Türchen', open: 'geöffnet', locked: 'gesperrt', of: 'von' },
+      it: { title: 'Calendario dell’Avvento dell’Alto Adige', sub: '24 luoghi, 24 finestrelle – un Avvento tra Dolomiti, borghi di montagna e calda luce invernale.', foot: 'Creato con amore per l’Alto Adige.', door: 'Finestrella', open: 'aperta', locked: 'bloccata', of: 'su' },
+      en: { title: 'South Tyrol Advent Calendar', sub: '24 places, 24 doors – an Advent of Dolomites, mountain villages and warm winter light.', foot: 'Made with love for South Tyrol.', door: 'Door', open: 'opened', locked: 'locked', of: 'of' },
+      zh: { title: '南蒂罗尔降临节日历', sub: '24个地点，24扇小门——在多洛米蒂山脉、山村和温暖的冬日灯光中度过降临节。', foot: '用心为南蒂罗尔打造。', door: '小门', open: '已打开', locked: '未解锁', of: '/' }
+    };
+    const t = T[lang];
+    const layout = [[7,19,3],[14,1,22],[10,24,5],[17,12,8],[2,21,15],[9,4,18],[23,13,6],[20,16,11]];
+    const bodies = ['#2d2845','#3a2a38','#242d4a','#3b2d30','#2a3046','#33283f','#2e2a3a','#392b36'];
+    const offsets = [0,34,10,22,4,30,14,26];
+    const candles = { 6: true, 13: true, 20: true };
+    const houses = layout.map((days, i) => ({
+      wrap: 'width:168px;margin-top:' + offsets[i] + 'px',
+      body: 'box-sizing:border-box;margin:0 6px;padding:12px 6px 14px;display:flex;gap:6px;background:' + bodies[i] + ';box-shadow:inset 0 8px 10px rgba(0,0,0,.35);border-radius:0 0 4px 4px',
+      windows: days.map((d) => {
+        const isOpen = !!opened[d];
+        const cls = isOpen ? 'open' : d === today ? 'ready today' : d < today ? 'ready' : 'locked';
+        return {
+          day: d,
+          cls: cls,
+          locked: d > today,
+          candle: !!candles[d],
+          star: d === 24,
+          label: t.door + ' ' + d + (isOpen ? ', ' + t.open : d > today ? ', ' + t.locked : ''),
+          tap: () => {
+            if (d > today) return;
+            const next = Object.assign({}, this.openedMap());
+            next[d] = !next[d];
+            this.setState({ opened: next });
+          }
+        };
+      })
+    }));
+    const count = Object.keys(opened).filter((k) => opened[k]).length;
+    const langs = [['de','DE','Deutsch'],['it','IT','Italiano'],['en','EN','English'],['zh','ZH','中文']].map((x) => ({
+      code: x[1], name: x[2], cls: lang === x[0] ? 'on' : '', pressed: lang === x[0],
+      tap: () => this.setState({ lang: x[0] })
+    }));
+    return {
+      t: t, houses: houses, langs: langs, count: count,
+      progress: Math.round((count / 24) * 100) + '%',
+      progressLabel: count + ' ' + t.of + ' 24'
+    };
+  }
+}
+</script>
+</body>
+</html>
