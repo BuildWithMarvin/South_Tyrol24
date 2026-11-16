@@ -10,7 +10,7 @@ I originally created this project as a personal, zero-budget Christmas gift for 
 - **Senior-Friendly & Accessible:** High-contrast typography, clean layout, and simple one-tap navigation without clutter.
 - **Multi-Language Support:** Fully localized in German (`DE`), Italian (`IT`), English (`EN`), and Chinese (`ZH`).
 - **Location Details & Maps:** High-resolution photography with proper artist attribution and embedded Google Maps views.
-- **Tech Stack:** Next.js (App Router), TypeScript, Tailwind CSS, deployed on Vercel.
+- **Tech Stack:** Next.js (App Router), React, TypeScript, Tailwind CSS, deployed on Vercel.
 
 ## Local Setup
 
