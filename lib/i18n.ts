@@ -57,6 +57,12 @@ export interface UiCopy {
   openMaps: string;
   donate: string;
   paypal: string;
+  installTitle: string;
+  installAndroidBody: string;
+  installButton: string;
+  installIosShare: string;
+  installIosAdd: string;
+  installClose: string;
   footer: string;
   seasonHint: string;
   badge: (day: number, date: string) => string;
@@ -92,6 +98,12 @@ export const UI: Record<Locale, UiCopy> = {
     openMaps: "In Google Maps öffnen",
     donate: "Projekt unterstützen · Buy Me a Coffee",
     paypal: "Per PayPal unterstützen",
+    installTitle: "App auf dem Startbildschirm ablegen",
+    installAndroidBody: "Öffnen Sie den Kalender künftig mit einem Tipp direkt vom Startbildschirm.",
+    installButton: "Zum Startbildschirm hinzufügen",
+    installIosShare: "Tippen Sie unten auf das Teilen-Symbol {icon}.",
+    installIosAdd: "Wählen Sie „Zum Home-Bildschirm“.",
+    installClose: "Schließen",
     footer: "Mit Liebe für Südtirol gestaltet.",
     seasonHint:
       "Der Kalender öffnet am 1. Dezember – schau gern wieder vorbei.",
@@ -126,6 +138,12 @@ export const UI: Record<Locale, UiCopy> = {
     openMaps: "Apri in Google Maps",
     donate: "Offrimi un caffè · Buy Me a Coffee",
     paypal: "Sostieni con PayPal",
+    installTitle: "Aggiungi l'app alla schermata Home",
+    installAndroidBody: "Apri il calendario con un solo tocco, direttamente dalla schermata Home.",
+    installButton: "Aggiungi alla schermata Home",
+    installIosShare: "Tocca l'icona Condividi {icon} in basso sullo schermo.",
+    installIosAdd: "Scegli «Aggiungi alla schermata Home».",
+    installClose: "Chiudi",
     footer: "Fatto con amore per l'Alto Adige.",
     seasonHint:
       "Il calendario si apre il 1° dicembre — torna a trovarci.",
@@ -160,6 +178,12 @@ export const UI: Record<Locale, UiCopy> = {
     openMaps: "Open in Google Maps",
     donate: "Support this project · Buy Me a Coffee",
     paypal: "Support via PayPal",
+    installTitle: "Add the app to your home screen",
+    installAndroidBody: "Open the calendar with one tap, straight from your home screen.",
+    installButton: "Add to Home Screen",
+    installIosShare: "Tap the Share icon {icon} at the bottom of the screen.",
+    installIosAdd: "Choose “Add to Home Screen”.",
+    installClose: "Close",
     footer: "Made with love for South Tyrol.",
     seasonHint: "The calendar opens on 1 December — do come back.",
     badge: (day, date) => `Door ${day} · ${date}`,
@@ -193,6 +217,12 @@ export const UI: Record<Locale, UiCopy> = {
     openMaps: "在 Google 地图中打开",
     donate: "请我喝杯咖啡 · Buy Me a Coffee",
     paypal: "通过 PayPal 支持",
+    installTitle: "将应用添加到主屏幕",
+    installAndroidBody: "以后只需点一下主屏幕图标，即可打开日历。",
+    installButton: "添加到主屏幕",
+    installIosShare: "点按屏幕底部的分享图标 {icon}。",
+    installIosAdd: "选择“添加到主屏幕”。",
+    installClose: "关闭",
     footer: "用心呈现南蒂罗尔之美。",
     seasonHint: "日历将于 12 月 1 日开启——欢迎再来。",
     badge: (day, date) => `第 ${day} 扇门 · ${date}`,

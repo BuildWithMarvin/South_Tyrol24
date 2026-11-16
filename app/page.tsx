@@ -5,6 +5,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { AlpineScene } from "./components/AlpineScene";
 import { DoorModal } from "./components/DoorModal";
 import { Star4 } from "./components/Emblems";
+import { InstallPrompt } from "./components/InstallPrompt";
 import { LanguageSwitcher } from "./components/LanguageSwitcher";
 import { SnowLayer } from "./components/SnowLayer";
 import { SupportButtons } from "./components/SupportButtons";
@@ -289,6 +290,7 @@ export default function HomePage() {
                 paypalUrl={paypalUrl}
                 variant="footer"
               />
+              <InstallPrompt copy={copy} />
             </footer>
           </div>
         </div>

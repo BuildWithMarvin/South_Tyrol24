@@ -23,6 +23,14 @@ export const metadata: Metadata = {
   description:
     "24 Türchen, 24 Orte in Südtirol – ein Advent voller Dolomiten, Bergdörfer und Winterlicht.",
   applicationName: "Südtirol Adventskalender",
+  icons: {
+    icon: [
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
+  appleWebApp: { capable: true, title: "Südtirol 24", statusBarStyle: "black" },
 };
 
 export const viewport: Viewport = {
