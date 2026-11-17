@@ -582,7 +582,7 @@
 
 .retryButton:focus-visible,
 .donateButton:focus-visible {
-  outline: 2px solid #ffffff;
+  outline: 2px solid #e8b960;
   outline-offset: 2px;
 }
 
@@ -622,9 +622,44 @@
   text-decoration: none;
 }
 
-.donateButton:hover,
 .modalDonate:hover {
   background: #b83433;
+}
+
+.footer .donateButton {
+  min-height: 0;
+  padding: 0.625rem 1.25rem;
+  border: 1px solid #e8b960;
+  border-radius: 9999px;
+  background: #e8b960;
+  color: #151830;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.footer .donateButton:hover {
+  background: #f0c777;
+  border-color: #f0c777;
+}
+
+.footer .donateButton.paypalButton {
+  border: 1px solid rgba(232, 185, 96, 0.4);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--cream);
+}
+
+.footer .donateButton.paypalButton:hover {
+  border-color: rgba(232, 185, 96, 0.7);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footerNote {
+  max-width: 28rem;
+  margin: 0;
+  color: rgba(243, 238, 226, 0.7);
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 .supportGroup {
@@ -635,11 +670,23 @@
   gap: 12px;
 }
 
-.paypalButton {
+@media (max-width: 479px) {
+  .supportGroup {
+    flex-direction: column;
+    width: 100%;
+    max-width: 18rem;
+  }
+
+  .supportGroup > a {
+    width: 100%;
+  }
+}
+
+.modalDonate.paypalButton {
   background: #0b3d91;
 }
 
-.paypalButton:hover {
+.modalDonate.paypalButton:hover {
   background: #1450b8;
 }
 

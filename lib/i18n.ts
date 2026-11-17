@@ -64,6 +64,7 @@ export interface UiCopy {
   installIosAdd: string;
   installClose: string;
   footer: string;
+  footerNote: string;
   seasonHint: string;
   badge: (day: number, date: string) => string;
   languageLabel: string;
@@ -105,6 +106,7 @@ export const UI: Record<Locale, UiCopy> = {
     installIosAdd: "Wählen Sie „Zum Home-Bildschirm“.",
     installClose: "Schließen",
     footer: "Mit Liebe für Südtirol gestaltet.",
+    footerNote: "Ursprünglich für meinen Opa gebaut – wenn dir der Kalender Freude macht, freue ich mich über einen kleinen virtuellen Glühwein.",
     seasonHint:
       "Der Kalender öffnet am 1. Dezember – schau gern wieder vorbei.",
     badge: (day, date) => `Türchen ${day} · ${date}`,
@@ -145,6 +147,7 @@ export const UI: Record<Locale, UiCopy> = {
     installIosAdd: "Scegli «Aggiungi alla schermata Home».",
     installClose: "Chiudi",
     footer: "Fatto con amore per l'Alto Adige.",
+    footerNote: "Nato per mio nonno – se il calendario ti piace, sarò felice di ricevere un piccolo vin brûlé virtuale.",
     seasonHint:
       "Il calendario si apre il 1° dicembre — torna a trovarci.",
     badge: (day, date) => `Porticina ${day} · ${date}`,
@@ -185,6 +188,7 @@ export const UI: Record<Locale, UiCopy> = {
     installIosAdd: "Choose “Add to Home Screen”.",
     installClose: "Close",
     footer: "Made with love for South Tyrol.",
+    footerNote: "Originally built for my grandpa – if the calendar brings you joy, I'd be happy about a little virtual mulled wine.",
     seasonHint: "The calendar opens on 1 December — do come back.",
     badge: (day, date) => `Door ${day} · ${date}`,
     languageLabel: "Choose language",
@@ -224,6 +228,7 @@ export const UI: Record<Locale, UiCopy> = {
     installIosAdd: "选择“添加到主屏幕”。",
     installClose: "关闭",
     footer: "用心呈现南蒂罗尔之美。",
+    footerNote: "最初是为我的爷爷做的——如果你喜欢这个日历，欢迎请我喝一杯小小的虚拟热红酒。",
     seasonHint: "日历将于 12 月 1 日开启——欢迎再来。",
     badge: (day, date) => `第 ${day} 扇门 · ${date}`,
     languageLabel: "选择语言",

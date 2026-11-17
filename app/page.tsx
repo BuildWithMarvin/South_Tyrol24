@@ -284,6 +284,7 @@ export default function HomePage() {
 
             <footer className={styles.footer}>
               <p className={styles.footerText}>{copy.footer}</p>
+              {(coffeeUrl || paypalUrl) && <p className={styles.footerNote}>{copy.footerNote}</p>}
               <SupportButtons
                 copy={copy}
                 coffeeUrl={coffeeUrl}
